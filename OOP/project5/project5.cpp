@@ -39,7 +39,7 @@ int main()
 	Act* myAct = new Act(myWorld);
 	myAct->set(rabbit_size, tiger_size, hunter_size,grass_size, pit_size);
 
-	system("clear");
+	
 	while(1)
 	{
 		myAct->process();
